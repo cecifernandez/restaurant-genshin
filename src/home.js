@@ -1,9 +1,26 @@
-function home() {
-  const createHome = document.createElement("div");
+const home = () => {
+  const contentDiv = document.querySelector("#content");
+  const pageContent = document.createElement("div");
+  pageContent.setAttribute("id", "home");
+  contentDiv.appendChild(pageContent);
 
-  createHome.innerHTML = "home";
+  const filterBg = document.createElement("div");
+  pageContent.appendChild(filterBg);
+  filterBg.setAttribute("id", "filter");
 
-  document.body.appendChild(home());
-}
+  const elementsDiv = document.createElement("div");
+  elementsDiv.setAttribute("id", "home-elements");
+  pageContent.appendChild(elementsDiv);
 
-export default home();
+  const restaurantTitle = document.createElement("h1");
+  restaurantTitle.textContent = "ShiMura's";
+  restaurantTitle.setAttribute("id", "title");
+  elementsDiv.appendChild(restaurantTitle);
+
+  const dishImg = document.createElement("img");
+  dishImg.src = "/src/assets/imgs/miso-soup.png";
+  dishImg.setAttribute("id", "dish");
+  elementsDiv.appendChild(dishImg);
+};
+
+export default home;

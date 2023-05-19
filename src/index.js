@@ -1,9 +1,3 @@
-import home from "./home";
+import loadPage from "./loadWebsite.js";
 
-const btnHome = document.createElement("button");
-
-btnHome.addEventListener("click", () => {
-  home();
-});
-
-document.body.appendChild(btnHome);
+loadPage();
