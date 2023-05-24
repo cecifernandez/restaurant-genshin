@@ -1,9 +1,9 @@
-import home from "./home";
+import loadHome from "./home";
 import loadNav from "./nav";
 
 function loadPage() {
   loadNav();
-  home();
+  loadHome();
 }
 
 export default loadPage;

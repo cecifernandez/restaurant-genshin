@@ -1,7 +1,9 @@
-const home = () => {
+const loadHome = () => {
   const contentDiv = document.querySelector("#content");
   const pageContent = document.createElement("div");
   pageContent.setAttribute("id", "home");
+  pageContent.setAttribute("id", "page-content");
+
   contentDiv.appendChild(pageContent);
 
   const filterBg = document.createElement("div");
@@ -23,4 +25,4 @@ const home = () => {
   elementsDiv.appendChild(dishImg);
 };
 
-export default home;
+export default loadHome;
