@@ -1,0 +1,142 @@
+body {
+  background-image: url(/src/assets/imgs/bg-home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#title {
+  font-family: Oxygen, 'sans-serif';
+  font-weight: 400;
+  font-size: 120px;
+  margin-bottom: 20%;
+  margin-left: 5%;
+  filter: drop-shadow(0 0 0.75rem rgb(107, 106, 106));
+  color: antiquewhite;
+}
+
+#dish {
+  height: 600px;
+
+}
+
+#home-elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 5%;
+}
+
+#nav {
+  color: antiquewhite;
+  font-family: Oxygen, 'sans-serif';
+  font-weight: 800;
+}
+
+#list {
+  list-style: none;
+  display: flex;
+  gap: 5%;
+  justify-content: right;
+  margin-right: 5%;
+}
+
+#list li {
+  transition: 0.3s;
+}
+
+#list li:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+#food-title {
+  color: antiquewhite;
+  font-family: Oxygen, 'sans-serif';
+  text-align: center;
+}
+
+
+#food-list {
+  color: antiquewhite;
+  font-family: Oxygen, 'sans-serif';
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 15%;
+  margin-top: 4%;
+  flex-wrap: wrap;
+
+}
+
+.food-item {
+  flex: 0 0 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.food-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.food-details {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  padding: 5px;
+  height: 20px;
+  width: 120px;
+  border-radius: 15px;
+  margin-top: 12px;
+}
+
+.price-box img {
+  width: 70px;
+  height: auto;
+  margin-left: -45%;
+}
+
+.food-price {
+  font-weight: bold;
+  color: black;
+  align-items: center;
+}
+
+.food-name {
+  margin-top: 5px;
+}
+
+#contact-title {
+  font-family: Oxygen, "sans-serif";
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+#map-location {
+  width: 35%;
+  margin-left: 32%;
+  border-radius: 20px;
+}
