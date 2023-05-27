@@ -1,1 +1,0 @@
-(()=>{"use strict";!function e(){document.createElement("div").innerHTML="home",document.body.appendChild(e())}();const e=document.createElement("button");e.addEventListener("click",(()=>{})),document.body.appendChild(e)})();
